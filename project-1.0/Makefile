@@ -2,14 +2,9 @@
 
 .PHONY: all clean
 
-RM=rm -rf
-
 all:
-	$(MAKE) -C src/project
-	$(MAKE) -C src/project install
+	make -C src/project build
+	make -C src/project install
 
 clean:
-	$(MAKE) -C src/project clean
-	$(RM) debian/files
-	$(RM) debian/project
-	$(RM) build/*
+	make -C src/project uninstall

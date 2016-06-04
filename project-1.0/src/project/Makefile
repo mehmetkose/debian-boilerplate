@@ -1,6 +1,8 @@
 #!/usr/bin/make -f
 
-build: project.cc
+.PHONY: build install uninstall
+
+build: project
 	g++ project.cc -o project
 
 install: build
