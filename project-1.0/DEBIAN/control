@@ -1,12 +1,11 @@
 Package: project
 Version: 1.0
+Section: base
+Priority: optional
 Architecture: amd64
 Depends: libc6 (>= 2.15)
-Build-Depends: debhelper (>= 8.0.0)
-Description: project boilerplate project for deb building. Visit https://github.com/minhazul-haque/dpkg-deb-boilerplate
-Source: project
-Section: dev
-Priority: optional
 Maintainer: Md. Minhazul Haque <mdminhazulhaque@gmail.com>
+Description: project boilerplate project for deb building. Visit https://github.com/minhazul-haque/dpkg-deb-boilerplate
 Homepage: https://github.com/minhazul-haque/dpkg-deb-boilerplate
+
 
